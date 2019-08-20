@@ -1,0 +1,39 @@
+{% extends "spotify/base.html"%}
+{% block content %}
+{% for r in results %}
+	{% load static %}
+	<link rel="stylesheet" type="text/css" href="{% static 'spotify/spotify.css' %}">
+	<article class="media content-section">
+		<div class="media-body">
+			<div class="article-metadata">
+				<h1><a class="article-title" href="https://open.spotify.com/embed/track/{{ r.id }}" target="spotPlayer">{{ r.name }}</a></h1>
+				<small class="text-muted">By: {{ r.artists }}</small>
+			</div>
+			{% if show %}
+	    		<div class="img__wrap">
+				  <img class="img__img" src="{{r.image}}" />
+				  <div class="img__description_layer">
+				    <p class="img__description">
+				    	<b><u>Song Parameters</u></b> <br>
+						Track Id: {{ r.id }} <br>
+						Popularity Score: {{ r.popularity }} <br>
+						Duration (ms): {{ r.duration_ms }} <br>
+						Energy: {{ r.energy }} <br>
+						Acousticness: {{ r.acousticness }} <br>
+						Danceability: {{ r.danceability }} <br>
+						Instrumentalness: {{ r.instrumentalness }} <br>
+						Liveness: {{ r.liveness }} <br>
+						Loudness: {{ r.loudness }} <br>
+						Valence: {{ r.valence }} <br>
+						Speechiness: {{ r.speechiness }} <br>
+						Key: {{ r.key }} <br>
+						Mode: {{ r.mode }} <br>
+						Tempo: {{ r.tempo }} <br>
+					</p>
+				  </div>
+				</div>
+			{% endif %}
+		</div>
+	</article>
+{% endfor %}
+{% endblock content %}
