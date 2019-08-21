@@ -17,4 +17,7 @@ To view all parameters about a song, simply hover your cursor over the album art
 
 Finally, once you have fine tuned a playlist just the right way, you can type in a playlist name into "Playlist to save songs."
 As seen below, we have typed in "MadeFromSpotTools" and it showed up in our playlist!
+<p align="center"> 
+<img src="README_PICTURES/ShowsInSpotify.png">
+</p>
 ![ShowsInSpotify](README_PICTURES/ShowsInSpotify.png)
