@@ -29,3 +29,33 @@ As seen below, we have typed in "MadeFromSpotTools" and it showed up in our play
 <p align="center"> 
 <img src="README_PICTURES/ShowsInSpotify.png">
 </p>
+
+You can view all information about unique parameters, their values, and what they mean in a gorgeous table on the About Page!
+<p align="center"> 
+<img src="README_PICTURES/About.png">
+</p>
+
+If you would like to see any feedback others have given, go the Feedback page. Here, you will find neatly organized posts with users' names, profile pictures and post content sorted by time posted (newest first). 
+<p align="center"> 
+<img src="README_PICTURES/Feedback.png">
+</p>
+
+To view a single post, click the post title as seen here:
+<p align="center"> 
+<img src="README_PICTURES/HoverPostTitle.png">
+</p>
+
+You will see a page similar to this:
+<p align="center"> 
+<img src="README_PICTURES/SinglePost.png">
+</p>
+
+Click on a username like this:
+<p align="center"> 
+<img src="README_PICTURES/HoverUser.png">
+</p>
+
+In order to view all posts made by that user:
+<p align="center"> 
+<img src="README_PICTURES/AllPostByUser.png">
+</p>
