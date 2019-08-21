@@ -1,5 +1,9 @@
 # Spotitools
 
+A gorgeous, minimalist way to give the end user more tools to create the perfect playlist.
+
+Created using Python3, Django, Bootstrap4, HTML, CSS, SQLite3, and the Spotify API (both the Python API and the web API).
+
 ## Initial Login
 When you first load up the site, you will see the following login dialog box. This box requests you to login to Spotify and grant the site access to your like songs. Once you perform this once, you will not have to do this again until either your token expires, or you delete your cookies.
 <p align="center"> 
