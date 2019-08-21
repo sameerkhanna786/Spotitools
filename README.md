@@ -20,4 +20,5 @@ As seen below, we have typed in "MadeFromSpotTools" and it showed up in our play
 <p align="center"> 
 <img src="README_PICTURES/ShowsInSpotify.png">
 </p>
+
 ![ShowsInSpotify](README_PICTURES/ShowsInSpotify.png)
