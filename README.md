@@ -106,3 +106,6 @@ Simply click the logout button at any time to logout of your site account. If su
 <p align="center"> 
 <img src="README_PICTURES/Logout.png">
 </p>
+
+## Thanks
+Special thanks to Schafer for his Django tutorial and W3Schools for the CSS tutorial. Both are great resources I highly reccomend if you want to learn them!
